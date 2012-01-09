@@ -13,7 +13,7 @@ public class Main {
 		objectSet.add(new DomainObject("Walter", "Kommentar2"));
 		objectSet.add(new DomainObject("Hans", "Kommentar3"));
 		objectSet.add(new DomainObject("Paul", "Kommentar4"));
-		objectSet.add(new DomainObject("Claudia",  "Kommentar5"));
+		objectSet.add(new DomainObject("Claudia", "Kommentar5"));
 		for (DomainObject domainObject : objectSet) {
 			LOGGER.debug(domainObject.getUuid);
 		}
