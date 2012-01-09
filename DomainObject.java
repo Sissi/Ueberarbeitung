@@ -23,7 +23,7 @@ public class DomainObject {
 		return uuid; 
 	}
 
-	public String uuid = UUID.randomUUID().toString()
+	public String uuid = UUID.randomUUID().toString();
 	
 	public String getComment() { 
 		return comment; 
@@ -40,4 +40,8 @@ public class DomainObject {
 	public void setName(String pname) { 
 		this.name = pname; 
 	}
+	
+	public String toString() {
+    return "DomainObject [name=" + name + ", comment=" + comment + ", uuid=" + uuid + "]";
+  }
 }
