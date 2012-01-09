@@ -13,7 +13,7 @@ public class DomainObject {
 		super();
 	}
 	
-	public DomainObject() {
+	public DomainObject(String name, String comment) {
 		super();
 		this.id = id;
 	}
